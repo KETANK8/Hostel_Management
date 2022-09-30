@@ -1,3 +1,17 @@
+/**
+ * HOSTEL   MANAGEMENT    STSTEM
+ * @author Ketan Kumar
+ * Illustrating USE OF LOMBOK,LOGGER AND GLOBAL EXCEPTION IN HOSTEL MANAGEMENT SYSTEM 
+ * TO CREATE USER,ROOM ADD ROOM AND USER TO DATABASE USING LOMBOK INHRITANCE IN HIBERNATE 
+ * ALLOTING ROOM TO USER
+ * THERE ARE TWO TYPES OF USER
+ * ->ADMIN
+ * ->END USER
+ * AND PRINT DATA OF ONE OR ALL USER USING LOGGER, DELETE USER AND ROOM USING DATA ACCESS OBJECT AND HQL 
+ * CREATING AND USING GLOBAL EXCEPTION
+ * ILLUSTRATING OBJECT RELATION MAPPING IN ENTITY USING HIBERNATE
+ * ONE ROOM CAN HAVE MANY USER
+ */
 package com.HostelMS.daoImpl;
 
 import com.HostelMS.config.HibernateUtil;
@@ -15,9 +29,9 @@ public class HostelMSDaoImpl implements HostelMSDao{
 			try(Session ses=HibernateUtil.getSession())
 			{
 				
-				String name=u.getUserName();
+				String name = u.getUserName();
 				User u2=null;
-				u2= (User) ses.createQuery("from User where userName=: Name").setParameter("Name", name).uniqueResult();
+				u2= (User) ses.createQuery("from User where userName =: Name").setParameter("Name", name).uniqueResult();
 				if(u2==null)
 				{
 					ses.beginTransaction();

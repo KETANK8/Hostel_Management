@@ -1,3 +1,17 @@
+/**
+ * HOSTEL   MANAGEMENT    STSTEM
+ * @author Ketan Kumar
+ * Illustrating USE OF LOMBOK,LOGGER AND GLOBAL EXCEPTION IN HOSTEL MANAGEMENT SYSTEM 
+ * TO CREATE USER,ROOM ADD ROOM AND USER TO DATABASE USING LOMBOK INHRITANCE IN HIBERNATE 
+ * ALLOTING ROOM TO USER
+ * THERE ARE TWO TYPES OF USER
+ * ->ADMIN
+ * ->END USER
+ * AND PRINT DATA OF ONE OR ALL USER USING LOGGER, DELETE USER AND ROOM USING DATA ACCESS OBJECT AND HQL 
+ * CREATING AND USING GLOBAL EXCEPTION
+ * ILLUSTRATING OBJECT RELATION MAPPING IN ENTITY USING HIBERNATE
+ * ONE ROOM CAN HAVE MANY USER
+ */
 package com.HostelMS.daoImpl;
 
 import java.util.List;
@@ -22,11 +36,11 @@ public class AdminDaoImpl implements AdminDao{
 		try(Session ses=HibernateUtil.getSession()){
 			
 			ses.beginTransaction();
-			String roomName = r.getRoomName();
+			String Name = r.getRoomName();
 			Room r2=null;
 			
 			// COMPARING GIVEN ROOM NAME IN THE DATABASE
-			r2=(Room)ses.createQuery("from Room where roomName =: roomName").setParameter("roomName", roomName).uniqueResult();
+			r2=(Room)ses.createQuery("from Room where roomName =: Name").setParameter("Name", Name).uniqueResult();
 			
 			// SAVING ROOM
 			// IF GIVEN ROOM NAME IS NOT PRESENT IN DATABASE
@@ -37,8 +51,9 @@ public class AdminDaoImpl implements AdminDao{
 				return 1;
 			}
 			else {
+				
 				// THROWS EXCEPTION IF GIVEN ROOM NAME IS ALREADY EXIST IN DATABASE
-				throw new GlobalException("room name is already existed");
+				throw new GlobalException("Room Name is already Taken!!!");
 			}
 			
 		}
@@ -109,7 +124,7 @@ public class AdminDaoImpl implements AdminDao{
 	// METHOD TO SET FEES
 	// SET HOW MUCH AMOUNT NEED TO PAY FOR ROOM
 	@Override
-	public int setDueAmount(int uId, int amount) throws GlobalException {
+	public int generateRent(int uId, int amount) throws GlobalException {
 		// TODO Auto-generated method stub
 		try(Session ses=HibernateUtil.getSession()){
 			ses.beginTransaction();
@@ -120,10 +135,10 @@ public class AdminDaoImpl implements AdminDao{
 			if(u == null)
 				// THROWING EXCEPTION IF USER NOT PRESENT IN DATABASE
 				throw new GlobalException("User not found !!!");
-			int fee = u.getUserFee();
+			int fee = u.getUserRent();
 			fee += amount;
 			// SETTING FEES AMOUNT
-			int res = ses.createQuery("update User set userFee =: fee ").setParameter("fee", fee).executeUpdate();
+			int res = ses.createQuery("update User set userRent =: fee  where userId =: id").setParameter("fee", fee).setParameter("id", uId).executeUpdate();
 			ses.getTransaction().commit();
 			return res;
 		}
@@ -133,7 +148,7 @@ public class AdminDaoImpl implements AdminDao{
 	// METHOD TO PAY FEES AMOUNT
 	// REDUCE THE DUE AMOUNT BASED ON HOW MUCH AMOUNT IS PAID
 	@Override
-	public int depositFeeAmount(int uId, int amount) throws GlobalException {
+	public int rentPayment(int uId, int amount) throws GlobalException {
 		// TODO Auto-generated method stub
 		try(Session ses=HibernateUtil.getSession()){
 			ses.beginTransaction();
@@ -145,11 +160,10 @@ public class AdminDaoImpl implements AdminDao{
 			if(u == null)
 				// THROWING EXCEPTION IF USER NOT PRESENT IN DATABASE
 				throw new GlobalException("User not found !!!");
-			int fee = u.getUserFee();
-			fee -= amount;
-			
+			int fee = u.getUserRent();
+			fee = fee - amount;
 			// UPDATING DUE AMOUNT BASED ON AMOUNT IS PAID
-			int res = ses.createQuery("update User set userFee =: fee ").setParameter("fee", fee).executeUpdate();
+			int res = ses.createQuery("update User set userRent =: fee where userId =: id").setParameter("fee", fee).setParameter("id", uId).executeUpdate();
 			ses.getTransaction().commit();
 			return fee;
 		}
@@ -222,6 +236,26 @@ public class AdminDaoImpl implements AdminDao{
 			}
 			else
 				return u;
+		}
+	}
+
+	// METHOD 10
+	// METHOD TO SET ROLE OF A USER
+	// ONLY ADMIN CAN SET ROLE OF USER
+	// ADMIN CAN ADD MORE ADMIN
+	@Override
+	public int setRole(int uId, String role) throws GlobalException {
+		// TODO Auto-generated method stub
+		try(Session ses=HibernateUtil.getSession()){
+			ses.beginTransaction();
+			User u = ses.get(User.class,uId);
+			if(u == null)
+				// THROWING EXCEPTION IF USER NOT PRESENT IN DATABASE
+				throw new GlobalException("User not found !!!");
+			// UPDATING USER ROLE BASED ON AMOUNT IS PAID
+			int res = ses.createQuery("update User set userRole =: role where userId =: id").setParameter("role", role).setParameter("id", uId).executeUpdate();
+			ses.getTransaction().commit();
+			return res;
 		}
 	}
 

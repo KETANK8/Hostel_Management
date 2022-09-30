@@ -10,8 +10,9 @@ public interface adminDashboard {
 	public void allotRoom();
 	public void deleteUser();
 	public void userInARoom();
-	public void setDueAmount();
-	public void depositDueAmount();
+	public void generateRent();
+	public void rentPayment();
+	public void setUserRole();
 	public void viewUserProfile();
 	
 }

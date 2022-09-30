@@ -1,7 +1,27 @@
+/**
+ * HOSTEL   MANAGEMENT    STSTEM
+ * @author Ketan Kumar
+ * Illustrating USE OF LOMBOK,LOGGER AND GLOBAL EXCEPTION IN HOSTEL MANAGEMENT SYSTEM 
+ * TO CREATE USER,ROOM ADD ROOM AND USER TO DATABASE USING LOMBOK INHRITANCE IN HIBERNATE 
+ * ALLOTING ROOM TO USER
+ * THERE ARE TWO TYPES OF USER
+ * ->ADMIN
+ * ->END USER
+ * AND PRINT DATA OF ONE OR ALL USER USING LOGGER, DELETE USER AND ROOM USING DATA ACCESS OBJECT AND HQL 
+ * CREATING AND USING GLOBAL EXCEPTION
+ * ILLUSTRATING OBJECT RELATION MAPPING IN ENTITY USING HIBERNATE
+ * ONE ROOM CAN HAVE MANY USER
+ */
 package com.HostelMS.serviceImpl;
 
 import java.util.Scanner;
+import java.util.Set;
 import java.util.regex.Pattern;
+
+import javax.validation.ConstraintViolation;
+import javax.validation.Validation;
+import javax.validation.Validator;
+import javax.validation.ValidatorFactory;
 
 import com.HostelMS.App;
 import com.HostelMS.dao.HostelMSDao;
@@ -43,15 +63,27 @@ public class LoginRegisterImpl implements LoginRegister{
 		u.setUserAddress(uaddress);
 		u.setUserRole("student");
 		u.setUserRoom(null);
-		u.setUserFee(0);
+		u.setUserRent(0);
 		
-		// Using Regular Expression
-		// RegEx To Check Data Entry
-		// Giving Condition to Set Unique UserName
-		// Giving Condition to Set Unique Password
-		// Giving Condition to Set Contact Number
-		if(Pattern.matches("[a-zA-Z]{5,}", uname)&&Pattern.matches("[a-zA-Z0-9@#]{6,}",upwd)&&Pattern.matches("[0-9]{9,}", uphone))
+		// CREATING VALIDATOR FACTORY OBJECT
+		ValidatorFactory validfac = Validation.buildDefaultValidatorFactory();
+		// CREATING VALIDATOR TO CHECK VALIDATION
+		Validator valid = validfac.getValidator();
+		
+		// Checking Validation to Set Unique UserName
+		// Checking Validation to Set Unique Password
+		// Checking Validation to Set Contact Number
+		Set<ConstraintViolation<User>> violations =	valid.validate(u);
+		
+		// IF ANY VALIDATION IS FAILED 
+		// USER WILL NOT SAVED
+		// AN ERROR MESSAGE DISPLAY IN RESPECT OF VALIDATION THAT FAILED
+		if(violations.size()>0)
 		{
+			for(ConstraintViolation<User> violates : violations)
+				log.info (violates.getMessage());// SHOWING VALIDATION MESSAGE
+		}
+		else {
 			//saving the user details
 			int status=dao.Registration(u);
 			log.info(status);
@@ -62,9 +94,7 @@ public class LoginRegisterImpl implements LoginRegister{
 				throw new GlobalException("Something went wrong");
 			}
 		}
-		else {
-			throw new GlobalException("\nUserName should Atleast have Five Characters. \nPassword must be AlphaNumeric and Atleast have 8 Characters. \nContact No should Atleast have 10 digits.");
-		}
+		
 		
 	}
 

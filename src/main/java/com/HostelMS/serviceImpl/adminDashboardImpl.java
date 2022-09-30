@@ -1,3 +1,12 @@
+/**
+ * HOSTEL   MANAGEMENT    STSTEM
+ * @author Ketan Kumar
+ * ->ADMIN
+ * AND PRINT DATA OF ONE OR ALL USER USING LOGGER, DELETE USER AND ROOM USING DATA ACCESS OBJECT AND HQL 
+ * CREATING AND USING GLOBAL EXCEPTION
+ * ILLUSTRATING OBJECT RELATION MAPPING IN ENTITY USING HIBERNATE
+ * ONE ROOM CAN HAVE MANY USER
+ */
 package com.HostelMS.serviceImpl;
 
 import java.util.List;
@@ -30,11 +39,11 @@ public class adminDashboardImpl implements adminDashboard{
 		int choice=0;
 		// CREATING A LOOP TO RE ENTER CHOICE
 		// RE ENTER CHOICE AFTER CCOMPLETING ONE ACTION
-		while(choice<10)
+		while(choice<11)
 		{
 			
 		// THESE ARE THE ALL ACTION ADMIN CAN PERFORM
-		log.info("\nPress 1 - All Rooms \nPress 2 - All Users \nPress 3 - Create Rooms \nPress 4 - Allot Room \nPress 5 - Room Status \nPress 6 - Fetch User Profile \nPress 7 - Set Due Fees Amount \nPress 8 - Pay Due Fees Amount \nPress 9 - Delete User \nPress 10 - Exit");
+		log.info("\nPress 1 - All Rooms \nPress 2 - All Users \nPress 3 - Create Rooms \nPress 4 - Allot Room \nPress 5 - Room Status \nPress 6 - Fetch User Profile \nPress 7 - Set Due Fees Amount \nPress 8 - Pay Due Fees Amount \nPress 9 - Delete User \nPress 10 - Set User Role \nPress 11 - Exit");
 		choice = scan.nextInt();
 			switch(choice) {
 			
@@ -44,10 +53,10 @@ public class adminDashboardImpl implements adminDashboard{
 				case 4->adashl.allotRoom();
 				case 5->adashl.userInARoom();
 				case 6->adashl.viewUserProfile();
-				case 7->adashl.setDueAmount();
-				case 8->adashl.depositDueAmount();
+				case 7->adashl.generateRent();
+				case 8->adashl.rentPayment();
 				case 9->adashl.deleteUser();
-				
+				case 10->adashl.setUserRole();
 			}
 		}
 	}
@@ -183,20 +192,20 @@ public class adminDashboardImpl implements adminDashboard{
 	// METHOD TO SET DUE AMOUNT FOR AN USER
 	// SET DUE AMOUNT USING PRIMARY KEY(USER ID)
 	@Override
-	public void setDueAmount() {
+	public void generateRent() {
 		// TODO Auto-generated method stub
-		log.info("Enter Amount to Add");
+		log.info("Enter Amount to Generate Rent");
 		int amount = scan.nextInt();
-		log.info("Enter user Id");
+		log.info("Enter User Id");
 		int uId = scan.nextInt();
 		int res;
 		try {
 			
 			// CALLING SET DUE AMOUNT METHOD USING ADMIN DO OBJECT
 			// UPDATING DUE AMOUNT OF AN USER
-			res = adao.setDueAmount(uId, amount);
+			res = adao.generateRent(uId, amount);
 			if(res==1)
-				log.info("amount added");
+				log.info("Amount Added");
 		} catch (GlobalException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -207,9 +216,9 @@ public class adminDashboardImpl implements adminDashboard{
 	// METHOD TO PAY DUE AMOUNT
 	// PAY DUE AMOUNT USING PRIAMRY KEY(USER ID)
 	@Override
-	public void depositDueAmount() {
+	public void rentPayment() {
 		// TODO Auto-generated method stub
-		log.info("Enter Amount to Pay Fees");
+		log.info("Enter Amount to Pay Rent");
 		int amount = scan.nextInt();
 		log.info("Enter user Id");
 		int uId = scan.nextInt();
@@ -218,9 +227,9 @@ public class adminDashboardImpl implements adminDashboard{
 			
 			// CALLING DEPOSIT FEE AMOUNT USING ADMIN DAO OBJECT
 			// UPDATING DUE AMOUNT OF A USER AFTER PAYMENT
-			reviseAmount = adao.depositFeeAmount(uId, amount);
+			reviseAmount = adao.rentPayment(uId, amount);
 			if(reviseAmount >= 0)
-				log.info("\nPAYMENT SUCCESSFULL \nFees Paid "+amount+".Rs \nYour Revised Due Fees Amount : "+reviseAmount+".Rs");
+				log.info("\nPAYMENT SUCCESSFULL \nAmount Paid "+amount+".Rs \nYour Revised Due Rent Amount : "+reviseAmount+".Rs");
 		} 
 		catch (GlobalException e) {
 			// TODO Auto-generated catch block
@@ -230,7 +239,7 @@ public class adminDashboardImpl implements adminDashboard{
 
 	// METHOD 10
 	// METHOD TO VIEW PROFILE OF AN USER
-	// VIEW USER PROFILE USING PRIMARY KEY(uSER ID)
+	// VIEW USER PROFILE USING PRIMARY KEY(USER ID)
 	@Override
 	public void viewUserProfile() {
 		// TODO Auto-generated method stub
@@ -245,6 +254,30 @@ public class adminDashboardImpl implements adminDashboard{
 			log.info(u);
 		} 
 		catch (GlobalException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	// METHOD 11
+	// METHOD TO SET ROLE OF AN USER
+	// SET USER ROLE USING PRIMARY KEY(USER ID)
+	@Override
+	public void setUserRole() {
+		// TODO Auto-generated method stub
+		log.info("Enter User Id : ");
+		int uId = scan.nextInt();
+		log.info("Enter User Role : ");
+		String role = scan.next();
+		int res;
+		try {
+			
+			// CALLING SET ROLW METHOD USING ADMIN DAO OBJECT
+			// UPDATING ROLE OF AN USER
+			res = adao.setRole(uId, role);
+			if(res==1)
+				log.info(role+" Added Successfully.");
+		} catch (GlobalException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}

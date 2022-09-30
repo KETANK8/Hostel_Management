@@ -1,3 +1,12 @@
+/**
+ * HOSTEL   MANAGEMENT    STSTEM
+ * @author Ketan Kumar
+ * ->END USER
+ * AND PRINT DATA OF ONE OR ALL USER USING LOGGER, DELETE USER AND ROOM USING DATA ACCESS OBJECT AND HQL 
+ * CREATING AND USING GLOBAL EXCEPTION
+ * ILLUSTRATING OBJECT RELATION MAPPING IN ENTITY USING HIBERNATE
+ * ONE ROOM CAN HAVE MANY USER
+ */
 package com.HostelMS.serviceImpl;
 
 import java.util.Scanner;
@@ -29,7 +38,7 @@ public class userDashboardImpl implements userDashboard{
 	// METHOD TO IMPLEMENT DASHBOARD
 	// GIVE USER CHOICE TO PERFORM DIFFERENT ACTION
 	@Override
-	public void dashboard(int uId) {
+	public void dashboard(int uId) throws GlobalException {
 		// TODO Auto-generated method stub
 		log.info("\n\nUSER DASHBOARD\n");
 		int choice=0;
@@ -72,7 +81,7 @@ public class userDashboardImpl implements userDashboard{
 	// METHOD 3
 	// TO SHOW DUE AMOUNT OF USER
 	@Override
-	public void viewDueAmount() {
+	public void viewDueAmount() throws GlobalException {
 		// TODO Auto-generated method stub
 		int amount= udao.userDueAmount(userId);// FETCH DUE AMOUNT DETAILS
 		log.info("Fees Due : "+amount);
@@ -91,7 +100,7 @@ public class userDashboardImpl implements userDashboard{
 	// METHOD 5
 	// TO CHANGE CONTACT NUMBER
 	@Override
-	public void changeContactnumber() {
+	public void changeContactnumber() throws GlobalException {
 		// TODO Auto-generated method stub
 		log.info("Enter New Contact number");
 		String contact = scan.next();

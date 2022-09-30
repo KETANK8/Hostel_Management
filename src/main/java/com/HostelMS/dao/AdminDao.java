@@ -13,7 +13,8 @@ public interface AdminDao {
 	public int allotRoom(int uId,int rId) throws GlobalException;
 	public int deleteUser(int uId) throws GlobalException;
 	public List<User> userInARoom(int rId);
-	public int setDueAmount(int uId,int amount) throws GlobalException;
-	public int depositFeeAmount(int uId,int amount) throws GlobalException;
+	public int generateRent(int uId,int amount) throws GlobalException;
+	public int rentPayment(int uId,int amount) throws GlobalException;
+	public int setRole(int uId,String role) throws GlobalException;
 	public User fetchUserProfile(int uId)throws GlobalException;
 }
