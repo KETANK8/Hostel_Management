@@ -61,13 +61,13 @@ public class AppTest{
 				
 				// POSITIVE TEST CASE 
 				// NEW USER IS THE TEST CASE
-				// ADD NEW USER IN DATABASE
-				// EXPECTING POSITIVE VALUE
+				// TESTING TO ADD NEW USER IN DATABASE
+				// EXPECTING POSITIVE VALUE THAT USER ADDED IN DATABASE
 				()->assertEquals(1,dao.Registration(b)),
 				
 				// NEGATIVE TEST CASE
-				// TRYING TO ADD USER THAT ALREADY EXIST
-				// EXPECTING AN EXCEPTION
+				// TESTING TO ADD USER THAT ALREADY EXIST
+				// EXPECTING METHOD TO THROW AN EXCEPTION
 				()->assertThrows(GlobalException.class,()->dao.Registration(a))
 		);
 	}
@@ -92,18 +92,17 @@ public class AppTest{
 		
 		assertAll(
 				// POSITIVE TEST CASE
-				// COMPARING IF BOTH USER OBJECT IS SAME
+				// TESTING TO COMPARE IF BOTH USER OBJECT IS SAME
 				// EXPECTING SAME RESULT
 				()->assertEquals(u.toString(),a.toString()),
 				
 				// NEGATIVE TEST CASE
-				// GIVING WRONG USERNAME AND PASSWORD IN LOGIN METHOD
-				// EXPECTING AN EXCEPTION
+				// TESTING TO LOGIN USING WRONG USERNAME AND PASSWORD IN LOGIN METHOD
+				// EXPECTING METHOD TO THROW AN EXCEPTION
 				()->assertThrows(GlobalException.class,()->dao.Login("KetanKumar", "K123456"))
 		);
 	}
 
-	// TEST 3
 	// TEST 3
 	@Test
 	@DisplayName("CREATE ROOM TESTING")
@@ -129,18 +128,17 @@ public class AppTest{
 		assertAll(
 				
 				// POSITIVE TEST CASE
-				// ADDING NEW ROOM TO DATABASE
-				// EXPECTING POSITIVE RESULT
+				// TESTING TO ADD NEW ROOM TO DATABASE
+				// EXPECTING POSITIVE RESULT TO ADD ROOM IN DATABASE
 				()->assertEquals(1,dao.createRoom(a)),
 				
 				// NEGATIVE TEST CASE
-				// TRYING TO ADD A ROOM THA ALREADY EXIST
-				// EXPECTING AN EXCEPTION
+				// TESTING TO ADD A ROOM THAT ALREADY EXIST IN DATABASE
+				// EXPECTING MRTHOD TO THROW AN EXCEPTION
 				()->assertThrows(GlobalException.class,()->dao.createRoom(r))
 		);
 	}
 
-	// TEST 4
 	// TEST 4
 	@Test
 	@DisplayName("Allot Room Testing")
@@ -151,20 +149,19 @@ public class AppTest{
 	
 		assertAll(
 				// POSITIVE TEST CASE
-				// ALLOTING A ROOM TO A USER FROM DATABASE
-				// EXPECTING POSITIVE RESULT
+				// TESTING TO ALLOT A ROOM TO A USER FROM DATABASE
+				// EXPECTING POSITIVE RESULT THAT USER ROOM UPDATED IN DATABASE
 				()->assertEquals(1,dao.allotRoom(2, 100)),
 				
 				// NEGATIVE TEST CASE
-				// GIVIING WRONG ROOM ID
+				// TESTING TO ALLOT A ROOM BY GIVING WRONG ROOM ID
 				// GIVING WRONG USER ID IN METHOD
-				// EXPECTING AN EXCEPTION
+				// EXPECTING METHOD TO THROW AN EXCEPTION
 				()->assertThrows(GlobalException.class,()->dao.allotRoom(500, 500))
 		);
 		
 	}
 
-	// TEST 5
 	// TEST 5
 	@Test
 	@DisplayName("DELETE USER TESTING")
@@ -176,18 +173,17 @@ public class AppTest{
 		assertAll(
 				
 				// POSTIVE TEST CASE
-				// GIVING USER ID TO DELETE FROM DATABSE
+				// TESTING TO DELETE AN USER FROM DATABASE BY GIVING USER ID
 				// EXPECTING TO DELETE USER FROM DATABASE SUCCESSFULLY
 				()->assertEquals(1,dao.deleteUser(10)),
 				
 				// NEGATIVE TEST CASE
-				// GIVING USER ID THAT DOES NOT EXIST IN DATABASE
-				// EXPECTING AN EXCEPTION
+				// TESTING TO DELETE AN USER WHOSE USER ID DOES NOT EXIST IN DATABASE
+				// EXPECTING METHOD TO THROW AN EXCEPTION
 				()->assertThrows(GlobalException.class,()->dao.deleteUser(500))
 				);
 	}
 
-	// TEST 6
 	// TEST 6
 	@Test
 	@DisplayName("SET RENT TESTING")
@@ -198,14 +194,14 @@ public class AppTest{
 		
 		assertAll(
 				// POSITIVE TEST CASE
-				// GIVING USER ID 4 AND AMMOUNT 5000
+				// TESTING TO SET RENT AMOUNT 5000 RS FOR USER ID 4
 				// EXPECTING GENERATED RENT OF 5000 FOR USER 4
 				()-> assertEquals(1,dao.generateRent(4,5000)),
 				
 				// NEGATIVE TEST CASE
-				// GIVING INCORRECT USER ID
-				// EXPECTING AN EXCEPTION
-				()->assertThrows(GlobalException.class,()->dao.generateRent(500,-600))
+				// TESTING TO SET RENT 6000 FOR INCORRECT USER ID
+				// EXPECTING METHOD TO THROW AN EXCEPTION
+				()->assertThrows(GlobalException.class,()->dao.generateRent(500,6000))
 		);															
 	}
 	
@@ -219,18 +215,17 @@ public class AppTest{
 		
 		assertAll(
 				// POSITIVE TEST CASE
-				// GIVING 1000 AMOUNT AS RENT PAYMENT
-				// EXEPCTING AMOUNT 9000  LEFT TO PAY
+				// TESTING TO PAY 1000 AMOUNT AS RENT PAYMENT
+				// EXEPCTING 9000 RENT AMOUNT LEFT TO PAY
 				()->assertEquals(9000,dao.rentPayment(5, 1000)),
 				
 				// NEGATIVE TEST CASE
 				// TESTING FOR INCORRECT USER ID
-				// EXCEPTING AN EXCEPTION
+				// EXCEPTING METHOD TO THROW AN EXCEPTION
 				()->assertThrows(GlobalException.class,()->dao.rentPayment(500, 1000))
 		);
 	}
 
-	// TEST 8
 	// TEST 8
 	@Test
 	@DisplayName("FETCH USER TESTING")
@@ -247,18 +242,17 @@ public class AppTest{
 		assertAll(
 				
 				// POSTIVE TEST CASE
-				// COMPARING BOTH USER THAT WE FETCHED EARLIER
+				// TESTING TO COMPARE BOTH USER THAT WE FETCHED EARLIER
 				// EXPECTING THAT BOTH ARE EQUAL/SAME
 				()->assertEquals(u.toString(),u1.toString()),
 				
 				// NEGATIVE TEST CASE
 				// TESTING FETCH USER PROFILE METHOD FOR INCORRECT USER ID
-				// EXCEPTING TO THROW AN EXCEPTION
+				// EXCEPTING METHOD TO THROW AN EXCEPTION
 				()->assertThrows(GlobalException.class,()->dao.fetchUserProfile(500))
 		);
 	}
 	
-	// TEST 9
 	// TEST 9
 	@Test
 	@DisplayName("DUE RENT TESTING")
@@ -269,8 +263,8 @@ public class AppTest{
 		
 		assertAll(
 				// POSITIVE TEST CASE
-				// FETCHING RENT BILL FOR USER 2
-				// EXPECTING 10000 RENT AMOUNT FROM USER 2
+				// TESTING TO FETCH RENT BILL FOR USER 2
+				// EXPECTING TO FETCH 10000 RENT AMOUNT FROM USER 2
 				()->assertEquals(10000,dao.userDueAmount(2)),
 				
 				// NEGATIVE TEST CASE
@@ -280,7 +274,6 @@ public class AppTest{
 		);
 	}
 	
-	// TEST 10
 	// TEST 10
 	@Test
 	@DisplayName("CHANGE CONTACT TESTING")
@@ -303,7 +296,6 @@ public class AppTest{
 	}
 	
 	// TEST 11
-	// TEST 11
 	@Test
 	@DisplayName("CHANGE PASSWORD TESTING")
 	void cahngePasswordTest() {
@@ -311,7 +303,14 @@ public class AppTest{
 		UserDao dao = new UserDaoImpl();
 		
 		assertAll(
+				// POSITIVE TEST CASE
+				// TESTING TO CHANGE PASSWORD OF USER 2
+				// EXPECTING TO CHANGE PASSWORD SUCCESSFULLY
 				()->assertEquals(1,dao.changePassWord(2,"AK12345@","amit1234")),
+				
+				// NEGATIVE TEST CASE
+				// TESTING TO CHANGE PASSWORD OF A USER THAT NOT EXIST IN DATABASE
+				// EXPECTING METHOD TO THROW AN EXCEPTION
 				()->assertThrows(GlobalException.class,()->dao.changePassWord(4,"amit1234","AK12345@"))
 				);
 	}

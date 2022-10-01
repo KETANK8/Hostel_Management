@@ -11,6 +11,7 @@ package com.HostelMS.serviceImpl;
 
 import java.util.Scanner;
 
+import com.HostelMS.App;
 import com.HostelMS.dao.UserDao;
 import com.HostelMS.daoImpl.UserDaoImpl;
 import com.HostelMS.exception.GlobalException;
@@ -40,15 +41,15 @@ public class userDashboardImpl implements userDashboard{
 	@Override
 	public void dashboard(int uId) throws GlobalException {
 		// TODO Auto-generated method stub
-		log.info("\n\nUSER DASHBOARD\n");
+		log.info("USER DASHBOARD");
 		int choice=0;
 		userId=uId;
 		
 		// CREATING LOOP
-		while(choice<6) {
+		while(choice<7) {
 			
 			// USER CAN PERFORM THESE ACTIONS
-			log.info("\nPress 1 - View Your Room\nPress 2 - Due Amount \nPress 3 - View  Your Profile\nPress 4 - Change Contact Number \nPress 5 - Change password \nPress 6 - Exit");
+			log.info("\nPress 1 - View Your Room\nPress 2 - Due Amount \nPress 3 - View  Your Profile\nPress 4 - Change Contact Number \nPress 5 - Change password \nPress 6 - Log Out");
 			
 			choice=scan.nextInt();
 			
@@ -63,6 +64,12 @@ public class userDashboardImpl implements userDashboard{
 				case 4->udimpl.changeContactnumber();
 				
 				case 5->udimpl.changePassword();
+				
+				// DEFAULT CASE TO LOGOUT
+				// LOG OUT FROM USER DASHBOARD
+				// RETURN TO THE MAIN MENU/LOGIN PAGE
+				default ->{ log.info("\nLOGGED OUT\n");
+				App.main(null);}
 			}
 		}
 		
@@ -84,7 +91,7 @@ public class userDashboardImpl implements userDashboard{
 	public void viewDueAmount() throws GlobalException {
 		// TODO Auto-generated method stub
 		int amount= udao.userDueAmount(userId);// FETCH DUE AMOUNT DETAILS
-		log.info("Fees Due : "+amount);
+		log.info("Rent Due : "+amount);
 	}
 
 	// METHOD 4

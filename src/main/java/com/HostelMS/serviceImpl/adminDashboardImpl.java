@@ -12,6 +12,7 @@ package com.HostelMS.serviceImpl;
 import java.util.List;
 import java.util.Scanner;
 
+import com.HostelMS.App;
 import com.HostelMS.dao.AdminDao;
 import com.HostelMS.daoImpl.AdminDaoImpl;
 import com.HostelMS.exception.GlobalException;
@@ -39,11 +40,11 @@ public class adminDashboardImpl implements adminDashboard{
 		int choice=0;
 		// CREATING A LOOP TO RE ENTER CHOICE
 		// RE ENTER CHOICE AFTER CCOMPLETING ONE ACTION
-		while(choice<11)
+		while(choice<12)
 		{
 			
 		// THESE ARE THE ALL ACTION ADMIN CAN PERFORM
-		log.info("\nPress 1 - All Rooms \nPress 2 - All Users \nPress 3 - Create Rooms \nPress 4 - Allot Room \nPress 5 - Room Status \nPress 6 - Fetch User Profile \nPress 7 - Set Due Fees Amount \nPress 8 - Pay Due Fees Amount \nPress 9 - Delete User \nPress 10 - Set User Role \nPress 11 - Exit");
+		log.info("\nPress 1 - All Rooms \nPress 2 - All Users \nPress 3 - Create Rooms \nPress 4 - Allot Room \nPress 5 - Room Status \nPress 6 - Fetch User Profile \nPress 7 - Set Due Fees Amount \nPress 8 - Pay Due Fees Amount \nPress 9 - Delete User \nPress 10 - Set User Role \nPress 11 - Log Out");
 		choice = scan.nextInt();
 			switch(choice) {
 			
@@ -57,7 +58,13 @@ public class adminDashboardImpl implements adminDashboard{
 				case 8->adashl.rentPayment();
 				case 9->adashl.deleteUser();
 				case 10->adashl.setUserRole();
-			}
+				
+				// DEFAULT CASE TO LOGOUT
+				// LOG OUT FROM ADMIN DASHBOARD
+				// RETURN TO THE MAIN MENU/LOGIN PAGE
+				default ->{ log.info("\nLOGGED OUT\n");
+					App.main(null);}
+				}
 		}
 	}
 
