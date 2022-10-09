@@ -2759,4 +2759,2206 @@ Press 1 - Register New Profile
 Press 2 - Profile Login 
 Press 3 - Exit 
 Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - Hostel Management System
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - Profile Login
+  [main] INFO  com.HostelMS.App  - Enter Your Username
+  [main] INFO  com.HostelMS.App  - Enter Your Password
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hostel]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@72a2312e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] INFO  com.HostelMS.App  - 
+Login Successfull
+
+Welcome  KetanK
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Log Out
+  [main] INFO  com.HostelMS.App  - Hostel Management System
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - Profile Login
+  [main] INFO  com.HostelMS.App  - Enter Your Username
+  [main] INFO  com.HostelMS.App  - Enter Your Password
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hostel]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@72a2312e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] INFO  com.HostelMS.App  - 
+Login Successfull
+
+Welcome  KetanK
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Log Out
+  [main] INFO  com.HostelMS.App  - Hostel Management System
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - Profile Login
+  [main] INFO  com.HostelMS.App  - Enter Your Username
+  [main] INFO  com.HostelMS.App  - Enter Your Password
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hostel]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@72a2312e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] INFO  com.HostelMS.App  - 
+Login Successfull
+
+Welcome  KetanK
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+VACANT ROOMS 
+Room Id : 101	Room Name : Room A	Room Type : Non - AC
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+VACANT ROOMS 
+Room Id : 102	Room Name : Room B	Room Type : Non - AC
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+VACANT ROOMS 
+Room Id : 105	Room Name : Room D	Room Type : Non - AC
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+VACANT ROOMS 
+Room Id : 106	Room Name : Room E	Room Type : Non - AC
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+VACANT ROOMS 
+Room Id : 108	Room Name : Room N	Room Type : Non - AC
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+VACANT ROOMS 
+Room Id : 109	Room Name : Room P	Room Type : Non - AC
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 100	Room Name : Room	Room Type : Ac
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 101	Room Name : Room A	Room Type : Non - AC
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 102	Room Name : Room B	Room Type : Non - AC
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 105	Room Name : Room D	Room Type : Non - AC
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 106	Room Name : Room E	Room Type : Non - AC
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 108	Room Name : Room N	Room Type : Non - AC
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 109	Room Name : Room P	Room Type : Non - AC
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+VACANT ROOMS 
+Room Id : 101	Room Name : Room A	Room Type : Non - AC
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+VACANT ROOMS 
+Room Id : 102	Room Name : Room B	Room Type : Non - AC
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+VACANT ROOMS 
+Room Id : 105	Room Name : Room D	Room Type : Non - AC
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+VACANT ROOMS 
+Room Id : 106	Room Name : Room E	Room Type : Non - AC
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+VACANT ROOMS 
+Room Id : 108	Room Name : Room N	Room Type : Non - AC
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+VACANT ROOMS 
+Room Id : 109	Room Name : Room P	Room Type : Non - AC
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Log Out
+  [main] INFO  com.HostelMS.App  - Hostel Management System
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - Profile Login
+  [main] INFO  com.HostelMS.App  - Enter Your Username
+  [main] INFO  com.HostelMS.App  - Enter Your Password
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hostel]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@72a2312e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] INFO  com.HostelMS.App  - 
+Login Successfull
+
+Welcome  KetanK
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+VACANT ROOMS 
+Room Id : 101	Room Name : Room A	Room Type : Non - AC Avialable Bed : 1
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+VACANT ROOMS 
+Room Id : 102	Room Name : Room B	Room Type : Non - AC Avialable Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+VACANT ROOMS 
+Room Id : 105	Room Name : Room D	Room Type : Non - AC Avialable Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+VACANT ROOMS 
+Room Id : 106	Room Name : Room E	Room Type : Non - AC Avialable Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+VACANT ROOMS 
+Room Id : 108	Room Name : Room N	Room Type : Non - AC Avialable Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+VACANT ROOMS 
+Room Id : 109	Room Name : Room P	Room Type : Non - AC Avialable Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Log Out
+  [main] INFO  com.HostelMS.App  - Hostel Management System
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - REGISTRATION
+  [main] INFO  com.HostelMS.App  - Enter Your First Name : 
+  [main] INFO  com.HostelMS.App  - Enter Your Last Name : 
+  [main] INFO  com.HostelMS.App  - Create Unique Username
+  [main] INFO  com.HostelMS.App  - Create Password
+  [main] INFO  com.HostelMS.App  - Enter Contact number
+  [main] INFO  com.HostelMS.App  - Enter Your Address
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hostel]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@17fede14] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] INFO  com.HostelMS.App  - 1
+  [main] INFO  com.HostelMS.App  - Registration success
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - Profile Login
+  [main] INFO  com.HostelMS.App  - Enter Your Username
+  [main] INFO  com.HostelMS.App  - Enter Your Password
+  [main] INFO  com.HostelMS.App  - 
+Login Successfull
+
+Welcome  KetanK
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 2	Name : AmitKKK	Contact No : 9999999999	Room : 100
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 4	Name : AshishShar	Contact No : 9878520123	Room : 100
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 5	Name : abhiraj	Contact No : 9876543218	Room : 100
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 6	Name : ArunK	Contact No : 9876543210	Room : 100
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 8	Name : ArunKK	Contact No : 9876543210	Room : 101
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 12	Name : AbhirSham	Contact No : 98785201234	Room : 101
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 13	Name : MahanRaja	Contact No : 8520852013	Room : null
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 1	Name : KetanK	Contact No : 9876543210
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 13	Name : MahanRaja	Contact No : 8520852013
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+VACANT ROOMS 
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 101	Room Name : Room A	Room Type : Non - AC	Avialable Bed : 1
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 102	Room Name : Room B	Room Type : Non - AC	Avialable Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 105	Room Name : Room D	Room Type : Non - AC	Avialable Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 106	Room Name : Room E	Room Type : Non - AC	Avialable Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 108	Room Name : Room N	Room Type : Non - AC	Avialable Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 109	Room Name : Room P	Room Type : Non - AC	Avialable Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.App  - Hostel Management System
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - Profile Login
+  [main] INFO  com.HostelMS.App  - Enter Your Username
+  [main] INFO  com.HostelMS.App  - Enter Your Password
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hostel]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@72a2312e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] INFO  com.HostelMS.App  - 
+Login Successfull
+
+Welcome  KetanK
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+VACANT ROOMS 
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 101	Room Name : Room A	Room Type : Non - AC	Avialable Bed : 1
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 102	Room Name : Room B	Room Type : Non - AC	Avialable Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 105	Room Name : Room D	Room Type : Non - AC	Avialable Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 106	Room Name : Room E	Room Type : Non - AC	Avialable Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 108	Room Name : Room N	Room Type : Non - AC	Avialable Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 109	Room Name : Room P	Room Type : Non - AC	Avialable Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+LOGGED OUT
+
+  [main] INFO  com.HostelMS.App  - Hostel Management System
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - Profile Login
+  [main] INFO  com.HostelMS.App  - Enter Your Username
+  [main] INFO  com.HostelMS.App  - Enter Your Password
+  [main] INFO  com.HostelMS.App  - 
+Login Successfull
+
+Welcome  AmitKKK
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - USER DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+Press 1 - View Your Room
+Press 2 - Due Amount 
+Press 3 - View  Your Profile
+Press 4 - Change Contact Number 
+Press 5 - Change password 
+Press 6 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - Hello AmitKKK
+Room number : 100
+Room Name : Room
+Room Type : Ac
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - USER DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+Press 1 - View Your Room
+Press 2 - Due Amount 
+Press 3 - View  Your Profile
+Press 4 - Change Contact Number 
+Press 5 - Change password 
+Press 6 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - Rent Due : 10000
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - USER DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+Press 1 - View Your Room
+Press 2 - Due Amount 
+Press 3 - View  Your Profile
+Press 4 - Change Contact Number 
+Press 5 - Change password 
+Press 6 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+LOGGED OUT
+
+  [main] INFO  com.HostelMS.App  - Hostel Management System
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - Profile Login
+  [main] INFO  com.HostelMS.App  - Enter Your Username
+  [main] INFO  com.HostelMS.App  - Enter Your Password
+  [main] INFO  com.HostelMS.App  - 
+Login Successfull
+
+Welcome  KetanK
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+VACANT ROOMS 
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 101	Room Name : Room A	Room Type : Non - AC	Avialable Bed : 1
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 102	Room Name : Room B	Room Type : Non - AC	Avialable Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 105	Room Name : Room D	Room Type : Non - AC	Avialable Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 106	Room Name : Room E	Room Type : Non - AC	Avialable Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 108	Room Name : Room N	Room Type : Non - AC	Avialable Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 109	Room Name : Room P	Room Type : Non - AC	Avialable Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+LOGGED OUT
+
+  [main] INFO  com.HostelMS.App  - Hostel Management System
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - Hostel Management System
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - Profile Login
+  [main] INFO  com.HostelMS.App  - Enter Your Username
+  [main] INFO  com.HostelMS.App  - Enter Your Password
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hostel]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@a9c5b75] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] INFO  com.HostelMS.App  - 
+Login Successfull
+
+Welcome  KetanK
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+VACANT ROOMS 
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 101	Room Name : Room A	Room Type : Non - AC	Avialable Bed : 1
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 102	Room Name : Room B	Room Type : Non - AC	Avialable Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 105	Room Name : Room D	Room Type : Non - AC	Avialable Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 106	Room Name : Room E	Room Type : Non - AC	Avialable Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 108	Room Name : Room N	Room Type : Non - AC	Avialable Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 109	Room Name : Room P	Room Type : Non - AC	Avialable Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+LOGGED OUT
+
+  [main] INFO  com.HostelMS.App  - Hostel Management System
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - REGISTRATION
+  [main] INFO  com.HostelMS.App  - Enter Your First Name : 
+  [main] INFO  com.HostelMS.App  - Enter Your Last Name : 
+  [main] INFO  com.HostelMS.App  - Create Unique Username
+  [main] INFO  com.HostelMS.App  - Create Password
+  [main] INFO  com.HostelMS.App  - Enter Contact number
+  [main] INFO  com.HostelMS.App  - Enter Your Address
+  [main] INFO  com.HostelMS.App  - 1
+  [main] INFO  com.HostelMS.App  - Registration success
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - Profile Login
+  [main] INFO  com.HostelMS.App  - Enter Your Username
+  [main] INFO  com.HostelMS.App  - Enter Your Password
+  [main] INFO  com.HostelMS.App  - 
+Login Successfull
+
+Welcome  MahaRaja
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - USER DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+Press 1 - View Your Room
+Press 2 - Due Amount 
+Press 3 - View  Your Profile
+Press 4 - Change Contact Number 
+Press 5 - Change password 
+Press 6 - Log Out
+  [main] INFO  com.HostelMS.App  - Hostel Management System
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - Profile Login
+  [main] INFO  com.HostelMS.App  - Enter Your Username
+  [main] INFO  com.HostelMS.App  - Enter Your Password
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hostel]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@72a2312e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] INFO  com.HostelMS.App  - 
+Login Successfull
+
+Welcome  KetanK
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - Enter user Id to delete
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - deleted!...
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+LOGGED OUT
+
+  [main] INFO  com.HostelMS.App  - Hostel Management System
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - REGISTRATION
+  [main] INFO  com.HostelMS.App  - Enter Your First Name : 
+  [main] INFO  com.HostelMS.App  - Enter Your Last Name : 
+  [main] INFO  com.HostelMS.App  - Create Unique Username
+  [main] INFO  com.HostelMS.App  - Create Password
+  [main] INFO  com.HostelMS.App  - Enter Contact number
+  [main] INFO  com.HostelMS.App  - Enter Your Address
+  [main] INFO  com.HostelMS.App  - 1
+  [main] INFO  com.HostelMS.App  - MahaRaja Register successfully.
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - Profile Login
+  [main] INFO  com.HostelMS.App  - Enter Your Username
+  [main] INFO  com.HostelMS.App  - Enter Your Password
+  [main] INFO  com.HostelMS.App  - 
+Login Successfull
+
+Welcome  MahaRaja
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - USER DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+Press 1 - View Your Room
+Press 2 - Due Amount 
+Press 3 - View  Your Profile
+Press 4 - Change Contact Number 
+Press 5 - Change password 
+Press 6 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+LOGGED OUT
+
+  [main] INFO  com.HostelMS.App  - Hostel Management System
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - Profile Login
+  [main] INFO  com.HostelMS.App  - Enter Your Username
+  [main] INFO  com.HostelMS.App  - Enter Your Password
+  [main] INFO  com.HostelMS.App  - 
+Login Successfull
+
+Welcome  AmitKKK
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - USER DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+Press 1 - View Your Room
+Press 2 - Due Amount 
+Press 3 - View  Your Profile
+Press 4 - Change Contact Number 
+Press 5 - Change password 
+Press 6 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - Hello AmitKKK
+Room number : 100
+Room Name : Room
+Room Type : Ac
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - USER DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+Press 1 - View Your Room
+Press 2 - Due Amount 
+Press 3 - View  Your Profile
+Press 4 - Change Contact Number 
+Press 5 - Change password 
+Press 6 - Log Out
+  [main] INFO  com.HostelMS.App  - Hostel Management System
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - Profile Login
+  [main] INFO  com.HostelMS.App  - Enter Your Username
+  [main] INFO  com.HostelMS.App  - Enter Your Password
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hostel]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@72a2312e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] INFO  com.HostelMS.App  - 
+Login Successfull
+
+Welcome  KetanK
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.App  - Hostel Management System
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - Profile Login
+  [main] INFO  com.HostelMS.App  - Enter Your Username
+  [main] INFO  com.HostelMS.App  - Enter Your Password
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hostel]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3520963d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] INFO  com.HostelMS.App  - 
+Login Successfull
+
+Welcome  KetanK
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+LOGGED OUT
+
+  [main] INFO  com.HostelMS.App  - Hostel Management System
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - Profile Login
+  [main] INFO  com.HostelMS.App  - Enter Your Username
+  [main] INFO  com.HostelMS.App  - Enter Your Password
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - Profile Login
+  [main] INFO  com.HostelMS.App  - Enter Your Username
+  [main] INFO  com.HostelMS.App  - Enter Your Password
+  [main] INFO  com.HostelMS.App  - 
+Login Successfull
+
+Welcome  AmitKKK
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+USER DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+Press 1 - View Your Room
+Press 2 - Due Amount 
+Press 3 - View  Your Profile
+Press 4 - Change Contact Number 
+Press 5 - Change password 
+Press 6 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - Hello AmitKKK
+Room number : 100
+Room Name : Room
+Room Type : Ac
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+USER DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+Press 1 - View Your Room
+Press 2 - Due Amount 
+Press 3 - View  Your Profile
+Press 4 - Change Contact Number 
+Press 5 - Change password 
+Press 6 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - Rent Due : 10000
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+USER DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+Press 1 - View Your Room
+Press 2 - Due Amount 
+Press 3 - View  Your Profile
+Press 4 - Change Contact Number 
+Press 5 - Change password 
+Press 6 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+LOGGED OUT
+
+  [main] INFO  com.HostelMS.App  - Hostel Management System
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - Hostel Management System
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - Profile Login
+  [main] INFO  com.HostelMS.App  - Enter Your Username
+  [main] INFO  com.HostelMS.App  - Enter Your Password
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hostel]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4d157493] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] INFO  com.HostelMS.App  - 
+Login Successfull
+
+Welcome  KetanK
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 100	Room Name : Room	Room Type : Ac
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 101	Room Name : Room A	Room Type : Non - AC
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 102	Room Name : Room B	Room Type : Non - AC
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 105	Room Name : Room D	Room Type : Non - AC
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 106	Room Name : Room E	Room Type : Non - AC
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 108	Room Name : Room N	Room Type : Non - AC
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 109	Room Name : Room P	Room Type : Non - AC
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 2 	Name : AmitKKK 	Contact No : 9999999999 	Room : 100
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 4 	Name : AshishShar 	Contact No : 9878520123 	Room : 100
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 5 	Name : abhiraj 	Contact No : 9876543218 	Room : 100
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 6 	Name : ArunK 	Contact No : 9876543210 	Room : 100
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 8 	Name : ArunKK 	Contact No : 9876543210 	Room : 101
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 12 	Name : AbhirSham 	Contact No : 98785201234 	Room : 101
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 13 	Name : MahanRaja 	Contact No : 8520852013 	Room : null
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 15 	Name : MahaRaja 	Contact No : 8520456123 	Room : null
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.App  - Hostel Management System
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - Profile Login
+  [main] INFO  com.HostelMS.App  - Enter Your Username
+  [main] INFO  com.HostelMS.App  - Enter Your Password
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hostel]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@72a2312e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - Profile Login
+  [main] INFO  com.HostelMS.App  - Enter Your Username
+  [main] INFO  com.HostelMS.App  - Enter Your Password
+  [main] INFO  com.HostelMS.App  - 
+Login Successfull
+
+Welcome  KetanK
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 2 	Name : AmitKKK 		Contact No : 9999999999 	Room : 100
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 4 	Name : AshishShar 		Contact No : 9878520123 	Room : 100
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 5 	Name : abhiraj 		Contact No : 9876543218 	Room : 100
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 6 	Name : ArunK 		Contact No : 9876543210 	Room : 100
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 8 	Name : ArunKK 		Contact No : 9876543210 	Room : 101
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 12 	Name : AbhirSham 		Contact No : 98785201234 	Room : 101
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 13 	Name : MahanRaja 		Contact No : 8520852013 	Room : null
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 15 	Name : MahaRaja 		Contact No : 8520456123 	Room : null
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.App  - Hostel Management System
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - Profile Login
+  [main] INFO  com.HostelMS.App  - Enter Your Username
+  [main] INFO  com.HostelMS.App  - Enter Your Password
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hostel]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4dde8976] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - Profile Login
+  [main] INFO  com.HostelMS.App  - Enter Your Username
+  [main] INFO  com.HostelMS.App  - Enter Your Password
+  [main] INFO  com.HostelMS.App  - 
+Login Successfull
+
+Welcome  KetanK
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 2 	Contact No : 9999999999 	Room : 100 	Name : AmitKKK
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 4 	Contact No : 9878520123 	Room : 100 	Name : AshishShar
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 5 	Contact No : 9876543218 	Room : 100 	Name : abhiraj
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 6 	Contact No : 9876543210 	Room : 100 	Name : ArunK
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 8 	Contact No : 9876543210 	Room : 101 	Name : ArunKK
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 12 	Contact No : 98785201234 	Room : 101 	Name : AbhirSham
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 13 	Contact No : 8520852013 	Room : null 	Name : MahanRaja
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 15 	Contact No : 8520456123 	Room : null 	Name : MahaRaja
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.App  - Hostel Management System
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - Profile Login
+  [main] INFO  com.HostelMS.App  - Enter Your Username
+  [main] INFO  com.HostelMS.App  - Enter Your Password
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hostel]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@a9c5b75] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] INFO  com.HostelMS.App  - 
+Login Successfull
+
+Welcome  KetanK
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 2 	Name : Amitt Kumar 	Contact No : 9999999999 	Room : 100
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 4 	Name : Ashish Sharma 	Contact No : 9878520123 	Room : 100
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 5 	Name : abhisekh raj 	Contact No : 9876543218 	Room : 100
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 6 	Name : Arun Kumar 	Contact No : 9876543210 	Room : 100
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 8 	Name : ArunK KumarK 	Contact No : 9876543210 	Room : 101
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 12 	Name : Abhirath Sharma 	Contact No : 98785201234 	Room : 101
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 13 	Name : Mahan Rajan 	Contact No : 8520852013 	Room : null
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 15 	Name : Mahan Raajana 	Contact No : 8520456123 	Room : null
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - Enter Room Id : 
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 2 	Name : AmitKKK 	Contact : 9999999999
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 4 	Name : AshishShar 	Contact : 9878520123
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 5 	Name : abhiraj 	Contact : 9876543218
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 6 	Name : ArunK 	Contact : 9876543210
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.App  - Hostel Management System
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - Profile Login
+  [main] INFO  com.HostelMS.App  - Enter Your Username
+  [main] INFO  com.HostelMS.App  - Enter Your Password
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hostel]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@72a2312e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] INFO  com.HostelMS.App  - 
+Login Successfull
+Welcome  Ketan Kumar
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - Enter Room Id : 
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 2 	Name : Amitt Kumar 	Contact : 9999999999
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 4 	Name : Ashish Sharma 	Contact : 9878520123
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 5 	Name : abhisekh raj 	Contact : 9876543218
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 6 	Name : Arun Kumar 	Contact : 9876543210
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - Enter User Id : 
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - User(userId=4, userName=AshishShar, firstName=Ashish, lastName=Sharma, userContact=9878520123, userPassword=Ashish123, userAddress=delji, userRole=student, userRent=10000, userRoom=Room(roomId=100, roomName=Room, roomType=Ac))
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+VACANT ROOMS 
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 101	Room Name : Room A	Room Type : Non - AC	Available Bed : 1
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 102	Room Name : Room B	Room Type : Non - AC	Available Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 105	Room Name : Room D	Room Type : Non - AC	Available Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 106	Room Name : Room E	Room Type : Non - AC	Available Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 108	Room Name : Room N	Room Type : Non - AC	Available Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 109	Room Name : Room P	Room Type : Non - AC	Available Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 1 	Name : Ketan Kumar	Contact No : 9876543210
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 13 	Name : Mahan Rajan	Contact No : 8520852013
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 15 	Name : Mahan Raajana	Contact No : 8520456123
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - Enter Room Id : 
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 8 	Name : ArunK KumarK 	Contact : 9876543210
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 11 	Name : RahulKumae KumarKumae 	Contact : 9876543210
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 12 	Name : Abhirath Sharma 	Contact : 98785201234
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+VACANT ROOMS 
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 101	Room Name : Room A	Room Type : Non - AC	Available Bed : 1
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 102	Room Name : Room B	Room Type : Non - AC	Available Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 105	Room Name : Room D	Room Type : Non - AC	Available Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 106	Room Name : Room E	Room Type : Non - AC	Available Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 108	Room Name : Room N	Room Type : Non - AC	Available Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 109	Room Name : Room P	Room Type : Non - AC	Available Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+LOGGED OUT
+
+  [main] INFO  com.HostelMS.App  - Hostel Management System
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - Profile Login
+  [main] INFO  com.HostelMS.App  - Enter Your Username
+  [main] INFO  com.HostelMS.App  - Enter Your Password
+  [main] INFO  com.HostelMS.App  - 
+Login Successfull
+Welcome  Amitt Kumar
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+USER DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+Press 1 - View Your Room
+Press 2 - Due Amount 
+Press 3 - View  Your Profile
+Press 4 - Change Contact Number 
+Press 5 - Change password 
+Press 6 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - Hello Amitt Kumar
+Room number : 100
+Room Name : Room
+Room Type : Ac
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+USER DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+Press 1 - View Your Room
+Press 2 - Due Amount 
+Press 3 - View  Your Profile
+Press 4 - Change Contact Number 
+Press 5 - Change password 
+Press 6 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - Rent Due : 10000
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+USER DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+Press 1 - View Your Room
+Press 2 - Due Amount 
+Press 3 - View  Your Profile
+Press 4 - Change Contact Number 
+Press 5 - Change password 
+Press 6 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - User(userId=2, userName=AmitKKK, firstName=Amitt, lastName=Kumar, userContact=9999999999, userPassword=amit1234, userAddress=Delhi, userRole=student, userRent=10000, userRoom=Room(roomId=100, roomName=Room, roomType=Ac))
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+USER DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+Press 1 - View Your Room
+Press 2 - Due Amount 
+Press 3 - View  Your Profile
+Press 4 - Change Contact Number 
+Press 5 - Change password 
+Press 6 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+LOGGED OUT
+
+  [main] INFO  com.HostelMS.App  - Hostel Management System
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - Hostel Management System
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - Hostel Management System
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - Hostel Management System
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - Profile Login
+  [main] INFO  com.HostelMS.App  - Enter Your Username
+  [main] INFO  com.HostelMS.App  - Enter Your Password
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hostel]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3520963d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] INFO  com.HostelMS.App  - 
+Login Successfull
+Welcome  Amitt Kumar
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+USER DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+Press 1 - View Your Room
+Press 2 - Due Amount 
+Press 3 - View  Your Profile
+Press 4 - Change Contact Number 
+Press 5 - Change password 
+Press 6 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - Hello Amitt Kumar
+Room number : 100
+Room Name : Room
+Room Type : Ac
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+USER DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+Press 1 - View Your Room
+Press 2 - Due Amount 
+Press 3 - View  Your Profile
+Press 4 - Change Contact Number 
+Press 5 - Change password 
+Press 6 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - Rent Due : 10000
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+USER DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+Press 1 - View Your Room
+Press 2 - Due Amount 
+Press 3 - View  Your Profile
+Press 4 - Change Contact Number 
+Press 5 - Change password 
+Press 6 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+LOGGED OUT
+
+  [main] INFO  com.HostelMS.App  - Hostel Management System
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - Hostel Management System
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - REGISTRATION
+  [main] INFO  com.HostelMS.App  - Enter Your First Name : 
+  [main] INFO  com.HostelMS.App  - Enter Your Last Name : 
+  [main] INFO  com.HostelMS.App  - Create Unique Username
+  [main] INFO  com.HostelMS.App  - Create Password
+  [main] INFO  com.HostelMS.App  - Enter Contact number
+  [main] INFO  com.HostelMS.App  - Enter Your Address
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hostel]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@17fede14] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] INFO  com.HostelMS.App  - SurajYadav Register successfully.
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - Profile Login
+  [main] INFO  com.HostelMS.App  - Enter Your Username
+  [main] INFO  com.HostelMS.App  - Enter Your Password
+  [main] INFO  com.HostelMS.App  - 
+Login Successfull
+Welcome  Suraj Yadav
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+USER DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+Press 1 - View Your Room
+Press 2 - Due Amount 
+Press 3 - View  Your Profile
+Press 4 - Change Contact Number 
+Press 5 - Change password 
+Press 6 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - Rent Due : 0
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+USER DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+Press 1 - View Your Room
+Press 2 - Due Amount 
+Press 3 - View  Your Profile
+Press 4 - Change Contact Number 
+Press 5 - Change password 
+Press 6 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - User(userId=16, userName=SurajYadav, firstName=Suraj, lastName=Yadav, userContact=8520456123, userPassword=S12345D, userAddress=Delhi, userRole=student, userRent=0, userRoom=null)
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+USER DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+Press 1 - View Your Room
+Press 2 - Due Amount 
+Press 3 - View  Your Profile
+Press 4 - Change Contact Number 
+Press 5 - Change password 
+Press 6 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - Enter Current Password
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - Enter New Password
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - password changed
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+USER DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+Press 1 - View Your Room
+Press 2 - Due Amount 
+Press 3 - View  Your Profile
+Press 4 - Change Contact Number 
+Press 5 - Change password 
+Press 6 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+LOGGED OUT
+
+  [main] INFO  com.HostelMS.App  - Hostel Management System
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - Profile Login
+  [main] INFO  com.HostelMS.App  - Enter Your Username
+  [main] INFO  com.HostelMS.App  - Enter Your Password
+  [main] INFO  com.HostelMS.App  - 
+Login Successfull
+Welcome  Ketan Kumar
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 100	Room Name : Room	Room Type : Ac
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 101	Room Name : Room A	Room Type : Non - AC
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 102	Room Name : Room B	Room Type : Non - AC
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 105	Room Name : Room D	Room Type : Non - AC
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 106	Room Name : Room E	Room Type : Non - AC
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 108	Room Name : Room N	Room Type : Non - AC
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 109	Room Name : Room P	Room Type : Non - AC
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 2 	Name : Amitt Kumar 	Contact No : 9999999999 	Room : 100
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 4 	Name : Ashish Sharma 	Contact No : 9878520123 	Room : 100
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 5 	Name : abhisekh raj 	Contact No : 9876543218 	Room : 100
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 6 	Name : Arun Kumar 	Contact No : 9876543210 	Room : 100
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 8 	Name : ArunK KumarK 	Contact No : 9876543210 	Room : 101
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 12 	Name : Abhirath Sharma 	Contact No : 98785201234 	Room : 101
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 13 	Name : Mahan Rajan 	Contact No : 8520852013 	Room : null
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 15 	Name : Mahan Raajana 	Contact No : 8520456123 	Room : null
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 16 	Name : Suraj Yadav 	Contact No : 8520456123 	Room : null
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 1 	Name : Ketan Kumar	Contact No : 9876543210
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 13 	Name : Mahan Rajan	Contact No : 8520852013
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 15 	Name : Mahan Raajana	Contact No : 8520456123
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 16 	Name : Suraj Yadav	Contact No : 8520456123
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+VACANT ROOMS 
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 101	Room Name : Room A	Room Type : Non - AC	Available Bed : 1
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 102	Room Name : Room B	Room Type : Non - AC	Available Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 105	Room Name : Room D	Room Type : Non - AC	Available Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 106	Room Name : Room E	Room Type : Non - AC	Available Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 108	Room Name : Room N	Room Type : Non - AC	Available Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 109	Room Name : Room P	Room Type : Non - AC	Available Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - Enter user Id
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - Enter room Id
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - Room alloted successfully
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+VACANT ROOMS 
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 102	Room Name : Room B	Room Type : Non - AC	Available Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 105	Room Name : Room D	Room Type : Non - AC	Available Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 106	Room Name : Room E	Room Type : Non - AC	Available Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 108	Room Name : Room N	Room Type : Non - AC	Available Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 109	Room Name : Room P	Room Type : Non - AC	Available Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - Enter user Id
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - Enter room Id
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - Enter Room Id : 
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 8 	Name : ArunK KumarK 	Contact : 9876543210
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 11 	Name : RahulKumae KumarKumae 	Contact : 9876543210
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 12 	Name : Abhirath Sharma 	Contact : 98785201234
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 16 	Name : Suraj Yadav 	Contact : 8520456123
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - Enter User Id : 
+  [main] INFO  com.HostelMS.App  - Hostel Management System
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - Profile Login
+  [main] INFO  com.HostelMS.App  - Enter Your Username
+  [main] INFO  com.HostelMS.App  - Enter Your Password
+  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.11.Final
+  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+  [main] WARN  org.hibernate.orm.connections.pooling  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hostel]
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001001: Connection properties: {password=****, user=root}
+  [main] INFO  org.hibernate.orm.connections.pooling  - HHH10001003: Autocommit mode: false
+  [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+  [main] INFO  org.hibernate.validator.internal.util.Version  - HV000001: Hibernate Validator 6.0.13.Final
+  [main] INFO  org.hibernate.orm.connections.access  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2d119405] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+  [main] INFO  com.HostelMS.App  - 
+Login Successfull
+Welcome  Ketan Kumar
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 2 	Name : Amitt Kumar 	Contact No : 9999999999 	Room : 100
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 4 	Name : Ashish Sharma 	Contact No : 9878520123 	Room : 100
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 5 	Name : abhisekh raj 	Contact No : 9876543218 	Room : 100
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 6 	Name : Arun Kumar 	Contact No : 9876543210 	Room : 100
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 8 	Name : ArunK KumarK 	Contact No : 9876543210 	Room : 101
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 12 	Name : Abhirath Sharma 	Contact No : 98785201234 	Room : 101
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 13 	Name : Mahan Rajan 	Contact No : 8520852013 	Room : null
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 15 	Name : Mahan Raajana 	Contact No : 8520456123 	Room : null
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 16 	Name : Suraj Yadav 	Contact No : 8520456123 	Room : 101
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+VACANT ROOMS 
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 102	Room Name : Room B	Room Type : Non - AC	Available Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 105	Room Name : Room D	Room Type : Non - AC	Available Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 106	Room Name : Room E	Room Type : Non - AC	Available Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 108	Room Name : Room N	Room Type : Non - AC	Available Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 109	Room Name : Room P	Room Type : Non - AC	Available Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - Enter user Id to delete
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - deleted!...
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+VACANT ROOMS 
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 101	Room Name : Room A	Room Type : Non - AC	Available Bed : 1
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 102	Room Name : Room B	Room Type : Non - AC	Available Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 105	Room Name : Room D	Room Type : Non - AC	Available Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 106	Room Name : Room E	Room Type : Non - AC	Available Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 108	Room Name : Room N	Room Type : Non - AC	Available Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Room Id : 109	Room Name : Room P	Room Type : Non - AC	Available Bed : 4
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 1 	Name : Ketan Kumar	Contact No : 9876543210
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 13 	Name : Mahan Rajan	Contact No : 8520852013
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+User Id : 15 	Name : Mahan Raajana	Contact No : 8520456123
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+LOGGED OUT
+
+  [main] INFO  com.HostelMS.App  - Hostel Management System
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - Profile Login
+  [main] INFO  com.HostelMS.App  - Enter Your Username
+  [main] INFO  com.HostelMS.App  - Enter Your Password
+  [main] INFO  com.HostelMS.App  - 
+Login Successfull
+Welcome  Ketan Kumar
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - Enter User Id : 
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - User(userId=13, userName=MahanRaja, firstName=Mahan, lastName=Rajan, userContact=8520852013, userPassword=M12345R, userAddress=Banaras, userRole=student, userRent=0, userRoom=null)
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+ADMIN DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+Press 1 - All Rooms 
+Press 2 - All Users 
+Press 3 - Create Rooms 
+Press 4 - Allot Room 
+Press 5 - Room Status 
+Press 6 - Fetch User Profile 
+Press 7 - Set Due Fees Amount 
+Press 8 - Pay Due Fees Amount 
+Press 9 - Delete User 
+Press 10 - Set User Role 
+Press 11 - Vaccant Room List 
+Press 12 - Un Alloted User 
+Press 13 - Log Out
+  [main] INFO  com.HostelMS.serviceImpl.adminDashboardImpl  - 
+LOGGED OUT
+
+  [main] INFO  com.HostelMS.App  - Hostel Management System
+  [main] INFO  com.HostelMS.App  - 
+Press 1 - Register New Profile 
+Press 2 - Profile Login 
+Press 3 - Exit 
+Enter Your Choice : 
+  [main] INFO  com.HostelMS.App  - Profile Login
+  [main] INFO  com.HostelMS.App  - Enter Your Username
+  [main] INFO  com.HostelMS.App  - Enter Your Password
+  [main] INFO  com.HostelMS.App  - 
+Login Successfull
+Welcome  Mahan Rajan
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+USER DASHBOARD
+  [main] INFO  com.HostelMS.serviceImpl.userDashboardImpl  - 
+Press 1 - View Your Room
+Press 2 - Due Amount 
+Press 3 - View  Your Profile
+Press 4 - Change Contact Number 
+Press 5 - Change password 
+Press 6 - Log Out
   

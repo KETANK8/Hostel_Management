@@ -1,5 +1,5 @@
 /**
- * HOSTEL   MANAGEMENT    STSTEM
+ * HOSTEL   MANAGEMENT    SYSTEM
  * @author Ketan Kumar
  * ->ADMIN
  * AND PRINT DATA OF ONE OR ALL USER USING LOGGER, DELETE USER AND ROOM USING DATA ACCESS OBJECT AND HQL 
@@ -35,16 +35,14 @@ public class adminDashboardImpl implements adminDashboard{
 	@Override
 	public void dashboard() {
 		// TODO Auto-generated method stub
-		log.info("ADMIN DASHBOARD");
-		
 		int choice=0;
 		// CREATING A LOOP TO RE ENTER CHOICE
 		// RE ENTER CHOICE AFTER CCOMPLETING ONE ACTION
-		while(choice<12)
+		while(choice<14)
 		{
-			
+		log.info("\nADMIN DASHBOARD");
 		// THESE ARE THE ALL ACTION ADMIN CAN PERFORM
-		log.info("\nPress 1 - All Rooms \nPress 2 - All Users \nPress 3 - Create Rooms \nPress 4 - Allot Room \nPress 5 - Room Status \nPress 6 - Fetch User Profile \nPress 7 - Set Due Fees Amount \nPress 8 - Pay Due Fees Amount \nPress 9 - Delete User \nPress 10 - Set User Role \nPress 11 - Log Out");
+		log.info("\nPress 1 - All Rooms \nPress 2 - All Users \nPress 3 - Create Rooms \nPress 4 - Allot Room \nPress 5 - Room Status \nPress 6 - Fetch User Profile \nPress 7 - Set Due Fees Amount \nPress 8 - Pay Due Fees Amount \nPress 9 - Delete User \nPress 10 - Set User Role \nPress 11 - Vaccant Room List \nPress 12 - Un Alloted User \nPress 13 - Log Out");
 		choice = scan.nextInt();
 			switch(choice) {
 			
@@ -58,7 +56,8 @@ public class adminDashboardImpl implements adminDashboard{
 				case 8->adashl.rentPayment();
 				case 9->adashl.deleteUser();
 				case 10->adashl.setUserRole();
-				
+				case 11->adashl.vaccantRoom(); 
+				case 12->adashl.unAllotedUser();
 				// DEFAULT CASE TO LOGOUT
 				// LOG OUT FROM ADMIN DASHBOARD
 				// RETURN TO THE MAIN MENU/LOGIN PAGE
@@ -94,10 +93,15 @@ public class adminDashboardImpl implements adminDashboard{
 		// CALLING ALL USER METHOD USING ADMIN DAO OBJECT
 		List<User> userList = adao.AllUsers();
 		
-		for(User u : userList)
-			// PRINTING DETAIL OF USER
-			// USING ENHANCED FOR LOOP
-			log.info("\nUser Id : "+u.getUserId()+"\tName : "+u.getUserName()+"\tContact No : "+u.getUserContact()+"\tRoom : "+u.getUserRoom().getRoomId());
+		// PRINTING DETAIL OF USER
+		// USING ENHANCED FOR LOOP
+		for(User u : userList) {
+			
+			if(u.getUserRoom()==null)
+				log.info("\nUser Id : "+u.getUserId()+" \tName : "+u.getFirstName()+" "+u.getLastName()+" \tContact No : "+u.getUserContact()+" \tRoom : null");
+			else
+				log.info("\nUser Id : "+u.getUserId()+" \tName : "+u.getFirstName()+" "+u.getLastName()+" \tContact No : "+u.getUserContact()+" \tRoom : "+u.getUserRoom().getRoomId());
+		}
 	}
 	
 
@@ -191,7 +195,7 @@ public class adminDashboardImpl implements adminDashboard{
 		for(User u:userList)
 			// PRESENTING USER INFO
 			// USING ENHANCED FOR LOOP
-			log.info("\nUser Id : "+u.getUserId()+"\tName : "+u.getUserName()+"\tContact : "+u.getUserContact());
+			log.info("\nUser Id : "+u.getUserId()+" \tName : "+u.getFirstName()+" "+u.getLastName()+" \tContact : "+u.getUserContact());
 		
 	}
 
@@ -288,5 +292,44 @@ public class adminDashboardImpl implements adminDashboard{
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+	}
+
+	// METHOD 12
+	// TO CHECK VACANT ROOM IN HOSTEL
+	@Override
+	public void vaccantRoom() {
+		// TODO Auto-generated method stub
+		// CALLING VACANT ROOM METHOD USING ADMIN DAO OBJECT
+		// FETCHING LIST OF VACANT ROOM
+		List<Room> roomList = adao.VaccantRooms();// FETCHING LIST
+		log.info("\nVACANT ROOMS ");
+		for(Room r : roomList) {
+			int bed =0, rId = r.getRoomId();
+			
+			// USING USER IN ROOM METHOD TO CHECK NO OF USER IN A ROOM
+			// TO FIND VACANT BED IN A ROOM
+			List<User> user = adao.userInARoom(rId);
+			
+			// PRINTING DETAIL OF ALL VACCANT ROOM
+			// VACANT ROOM WITH VACCANT BED
+			// USING ENHANCED FOR LOOP
+			log.info("\nRoom Id : "+r.getRoomId()+"\tRoom Name : "+r.getRoomName()+"\tRoom Type : "+r.getRoomType()+"\tAvailable Bed : "+(4-user.size()));
+		} 	
+	}
+
+	// METHOD 13
+	// TO FETCH LIST OF USER WITHOUT ROOM
+	@Override
+	public void unAllotedUser() {
+		// TODO Auto-generated method stub
+		// FETCHING LIST OF ALL USER THOSE ARE NOT ALLOTED TO ANY ROOM
+		// CALLING UNALLOTED USER METHOD USING ADMIN DAO OBJECT
+		List<User> userList = adao.UnAllotedUsers();
+		
+		// TRAVERSING USER LIST
+		for(User u : userList)
+			// PRINTING DETAIL OF USER
+			// USING ENHANCED FOR LOOP
+			log.info("\nUser Id : "+u.getUserId()+" \tName : "+u.getFirstName()+" "+u.getLastName()+"\tContact No : "+u.getUserContact());
 	}
 }

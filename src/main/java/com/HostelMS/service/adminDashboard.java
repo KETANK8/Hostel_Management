@@ -14,5 +14,6 @@ public interface adminDashboard {
 	public void rentPayment();
 	public void setUserRole();
 	public void viewUserProfile();
-	
+	public void vaccantRoom();
+	public void unAllotedUser();
 }

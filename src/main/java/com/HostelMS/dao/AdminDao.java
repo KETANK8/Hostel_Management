@@ -17,4 +17,6 @@ public interface AdminDao {
 	public int rentPayment(int uId,int amount) throws GlobalException;
 	public int setRole(int uId,String role) throws GlobalException;
 	public User fetchUserProfile(int uId)throws GlobalException;
+	public List<Room> VaccantRooms();
+	public List<User> UnAllotedUsers();
 }

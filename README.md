@@ -9,13 +9,18 @@
     
     
 ## Admin modules: 
-      1. Login 
-      2. Create New Rooms 
-      3. Allot New Rooms 
-      4. Update Fee details 
-      5. View Users 
-      6. View Rooms 
-      7. Delete Users
+      1.  Login 
+      2.  Create New Rooms 
+      3.  Allot New Rooms 
+      4.  Update Rent details 
+      5.  View Users 
+      6.  View Rooms 
+      7.  Delete Users
+	  8.  Pay Rent
+	  9.  View User In A Room
+	  10. Update Role of a User
+	  11. Vacant Room List
+	  12. User List not Issued any Room
     
     
 ## Enduser modules: 

@@ -1,5 +1,5 @@
 /**
- * HOSTEL   MANAGEMENT    STSTEM
+ * HOSTEL   MANAGEMENT    SYSTEM
  * @author Ketan Kumar
  * Illustrating UNIT TESTING OF HOSTEL MANAGEMENT SYSTEM
  * THERE ARE TWO TYPES OF USER
@@ -205,7 +205,6 @@ public class AppTest{
 		);															
 	}
 	
-	// TEST 7
 	// TEST 7
 	@Test
 	@DisplayName("RENT PAYMENT TESTING")

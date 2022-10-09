@@ -1,5 +1,5 @@
 /**
- * HOSTEL   MANAGEMENT    STSTEM
+ * HOSTEL   MANAGEMENT    SYSTEM
  * @author Ketan Kumar
  * Illustrating USE OF LOMBOK,LOGGER AND GLOBAL EXCEPTION IN HOSTEL MANAGEMENT SYSTEM 
  * TO CREATE USER,ROOM ADD ROOM AND USER TO DATABASE USING LOMBOK INHRITANCE IN HIBERNATE 
@@ -14,6 +14,7 @@
  */
 package com.HostelMS.daoImpl;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.persistence.Query;
@@ -75,7 +76,7 @@ public class AdminDaoImpl implements AdminDao{
 			
 			// FETCHING LIST OF ALL USER 
 			// USER THAT ALREADY HAVE ROOM ACCESS OF GIVEN ROOM ID
-			List<User> userList= ses.createQuery("from User where userRoom_roomId =: id ").setParameter("id", rId).getResultList();
+			List<User> userList = ses.createQuery("from User where userRoom_roomId =: id ").setParameter("id", rId).getResultList();
 			
 			// COUNTING NO OF USER HAVE GIVEN ROOM ACCESS
 			for(User u : userList)
@@ -256,6 +257,64 @@ public class AdminDaoImpl implements AdminDao{
 			int res = ses.createQuery("update User set userRole =: role where userId =: id").setParameter("role", role).setParameter("id", uId).executeUpdate();
 			ses.getTransaction().commit();
 			return res;
+		}
+	}
+
+	// METHOD 11
+	// TO FETCH THE LIST OF ALL VACANT ROOM
+	// VACANT ROOM WITH NO OF AVIALABLE BEDS
+	@Override
+	public List<Room> VaccantRooms() {
+		// TODO Auto-generated method stub
+			try(Session ses=HibernateUtil.getSession()){
+			
+				// FETCHING LIST OF ROOM
+				Query qu=ses.createQuery("from Room");
+				List<Room> roomList=qu.getResultList();
+				List<Room> vaccantRoom = new ArrayList<Room>();
+				
+				// TRAVERSING ROOM LIST
+				// USING ENHANCED FOR LOOP
+				for(Room r : roomList) {
+					int count = 0;
+					
+					// FETCHING LIST OF ALL USER 
+					// USER THAT ALREADY HAVE ROOM ACCESS OF GIVEN ROOM ID
+					int rId = r.getRoomId(); // FETCHING ROOM ID
+					List<User> userList= ses.createQuery("from User where userRoom_roomId =: id ").setParameter("id", rId).getResultList();
+					
+					// COUNTING NO OF USER HAVE ROOM ACCESS OF GIVEN ROOM
+					for(User u : userList)
+						count ++;
+					
+					// ONE ROOM CAN ONLY ALLOTED TO FOUR USER
+					// IF ROOM IS NOT ALLOTED TO FOUR USER
+					// THEN ROOM HAVE SPACE AND ROOM GET ALLOTED TO USER
+					// IF ROOM ALREADY ALLOTED TO FOUR USER
+					// THEN ROOM CANNOT BE ALLOTED TO GIVEN USER
+					if(count<4 && r!=null){
+						vaccantRoom.add(r); // ADDING ROOM TO THE VACANT LIST IF BED AVAILABLE
+					}	
+				}
+			// RETURNING ROOM LIST
+			return vaccantRoom;
+		}
+	}
+
+	// METHOD 12
+	// TO FETCH LIST OF USER
+	// WHO DOES NOT HAVE ACCESS TO ANY ROOM
+	@Override
+	public List<User> UnAllotedUsers() {
+		// TODO Auto-generated method stub
+		try(Session ses=HibernateUtil.getSession()){
+			
+			// FETCHING ALL USER PRESENT IN A ROOM
+			Query qu = ses.createQuery("from User where userRoom_roomId = null");
+			List<User> userList=qu.getResultList();
+			
+			// RETURNING USER LIST
+			return userList;
 		}
 	}
 

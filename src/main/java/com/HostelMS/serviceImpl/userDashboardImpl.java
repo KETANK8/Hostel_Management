@@ -1,5 +1,5 @@
 /**
- * HOSTEL   MANAGEMENT    STSTEM
+ * HOSTEL   MANAGEMENT    SYSTEM
  * @author Ketan Kumar
  * ->END USER
  * AND PRINT DATA OF ONE OR ALL USER USING LOGGER, DELETE USER AND ROOM USING DATA ACCESS OBJECT AND HQL 
@@ -41,20 +41,19 @@ public class userDashboardImpl implements userDashboard{
 	@Override
 	public void dashboard(int uId) throws GlobalException {
 		// TODO Auto-generated method stub
-		log.info("USER DASHBOARD");
 		int choice=0;
 		userId=uId;
 		
 		// CREATING LOOP
 		while(choice<7) {
-			
+			log.info("\nUSER DASHBOARD");
 			// USER CAN PERFORM THESE ACTIONS
 			log.info("\nPress 1 - View Your Room\nPress 2 - Due Amount \nPress 3 - View  Your Profile\nPress 4 - Change Contact Number \nPress 5 - Change password \nPress 6 - Log Out");
 			
 			choice=scan.nextInt();
 			
 			switch(choice) {
-		
+
 				case 1->udimpl.viewRoom();
 				
 				case 2->udimpl.viewDueAmount();
@@ -82,7 +81,7 @@ public class userDashboardImpl implements userDashboard{
 	public void viewRoom() {
 		// TODO Auto-generated method stub
 		User u= udao.userRoom(userId);// FETCHING USER ROOM DETAILS
-		log.info("Hello "+u.getUserName()+"\nRoom number : "+u.getUserRoom().getRoomId()+"\nRoom Name : "+u.getUserRoom().getRoomName()+"\nRoom Type : "+u.getUserRoom().getRoomType());
+		log.info("Hello "+u.getFirstName()+" "+u.getLastName()+"\nRoom number : "+u.getUserRoom().getRoomId()+"\nRoom Name : "+u.getUserRoom().getRoomName()+"\nRoom Type : "+u.getUserRoom().getRoomType());
 	}
 
 	// METHOD 3

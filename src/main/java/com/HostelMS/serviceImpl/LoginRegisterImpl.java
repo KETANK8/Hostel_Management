@@ -1,5 +1,5 @@
 /**
- * HOSTEL   MANAGEMENT    STSTEM
+ * HOSTEL   MANAGEMENT    SYSTEM
  * @author Ketan Kumar
  * Illustrating USE OF LOMBOK,LOGGER AND GLOBAL EXCEPTION IN HOSTEL MANAGEMENT SYSTEM 
  * TO CREATE USER,ROOM ADD ROOM AND USER TO DATABASE USING LOMBOK INHRITANCE IN HIBERNATE 
@@ -86,9 +86,8 @@ public class LoginRegisterImpl implements LoginRegister{
 		else {
 			//saving the user details
 			int status=dao.Registration(u);
-			log.info(status);
 			if(status==1) {
-				log.info("Registration success");
+				log.info(uname+" Register successfully.");
 			}
 			else {
 				throw new GlobalException("Something went wrong");
@@ -109,7 +108,7 @@ public class LoginRegisterImpl implements LoginRegister{
 		User u = null;
 		try {
 			u = dao.Login(username, password);
-			log.info("\nLogin Successfull"+"\n\nWelcome  "+u.getUserName());
+			log.info("\nLogin Successfull"+"\nWelcome  "+u.getFirstName()+" "+u.getLastName());
 			
 			// CREATING OBJECT OF ADMIN AND USER DASHBOARD
 			adminDashboardImpl adimpl = new adminDashboardImpl();
